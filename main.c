@@ -12,9 +12,7 @@ struct linkedList *head = NULL;
 
 //Main method that gets the int, creates the linked list, then deletes the nodes
 void main(){
-
-	printf("hello world!\n");
-	int K;
+    int K;
     printf("Enter an number: ");
     scanf("%d", &K);  
     printf("You entered = %d\n",K);
